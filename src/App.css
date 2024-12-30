@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-title h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.styled-form .form-group {
+  margin-bottom: 15px;
+}
+
+.styled-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.styled-form input,
+.styled-form textarea,
+.styled-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.styled-form textarea {
+  resize: vertical;
+}
+
+.styled-form .radio-label,
+.styled-form .checkbox-label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.styled-form .radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.styled-form .radio-label input {
+  margin-right: 5px;
+  transform: translateX(-15px); /* Move the radio buttons 15px to the left */
+}
+
+.styled-form .submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.styled-form .submit-button:hover {
+  background-color: #4569a0;
+}
+
+.styled-form .country-code {
+  width: 80px; /* Adjust the width as needed */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
